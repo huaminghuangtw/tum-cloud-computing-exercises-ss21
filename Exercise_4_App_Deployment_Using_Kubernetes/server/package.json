@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Hua-Ming Huang",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "express": "^4.16.0",
+    "seneca": "^3.2.2"
+  }
+}

@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: product-price-service
+spec:
+  selector:
+    app: product-price
+  ports:
+    - protocol: TCP
+      port: 9003
+      targetPort: 9003

@@ -1,0 +1,15 @@
+{
+  "name": "helloWorld",
+  "version": "1.0.0",
+  "description": "Hello World Service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Hua-Ming Huang",
+  "license": "ISC",
+  "dependencies": {
+    "seneca": "^3.2.2"
+  }
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- CSS -->
+  <!-- STYLESHEETS -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/styles/styles.css">
+
+  <!-- VENDOR SCRIPTS -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+
+  <title>Cloud Computing Exercise App</title>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/">My Library Portal</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="/">Home</a></li>
+      <li><a href="/api">API Documentation</a></li>
+    </ul>
+  </div>
+</nav>
+<h1></h1>
+<div class="container">
+  <div class="row">
+    <form action="post" style="clear: both" class="book-form form-horizontal" id="bookForm">
+      <div class="form-group col-sm-4">
+        <label for="title">Book Title:</label>
+        <input type="text" class="form-control" id="title" name="title"/>
+      </div>
+      <div class="form-group col-sm-4">
+        <label for="author">Book Author:</label>
+        <input type="text" class="form-control" id="author" name="author"/>
+      </div>
+      <div class="form-group col-sm-4">
+        <label for="releaseDate">Release Date:</label>
+        <input type="text" class="form-control" id="releaseDate" name="releaseDate"/>
+      </div>
+      <div class="form-group col-sm-4">
+        <label for="genre">Genre:</label>
+        <select class="form-control" id="genre" name="genre">
+          <option value="fiction">Fiction</option>
+          <option value="nonfiction">Non-Fiction</option>
+        </select>
+      </div>
+
+      <div class="form-group col-sm-4">
+        <label for="rating">Rating:</label>
+        <input type="number" class="form-control" min="1" max="5" id="rating" name="rating"/>
+      </div>
+      <div class="form-group col-sm-4">
+        <label for="language">Language of book:</label>
+        <input type="text" class="form-control" id="language" name="language"/>
+      </div>
+      <div class="form-group col-sm-12" style="text-align: center;">
+        <input type="submit" class="btn btn-info" value="Submit"/>
+      </div>
+    </form>
+  </div>
+  <h3 style="text-align: center"><b>All Stored Books Information</b></h3>
+  <div class="row" style="background-color: beige; font-family: Calibri; font-size: 20px">
+    <div id="results" class="book-results">
+
+    </div>
+  </div>
+
+</div>
+<script src="/scripts/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: product-price-deployment
+  labels:
+    app: product-price
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: product-price
+  template:
+    metadata:
+      labels:
+        app: product-price
+    spec:
+      containers:
+        - name: product-price
+          image: hmhuang0501/microservice:productprice
+          ports:
+            - containerPort: 9003

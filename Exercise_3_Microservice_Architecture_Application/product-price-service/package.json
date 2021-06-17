@@ -1,0 +1,14 @@
+{
+  "name": "product_price_service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Hua-Ming Huang",
+  "license": "ISC",
+  "dependencies": {
+    "seneca": "^3.2.2"
+  }
+}

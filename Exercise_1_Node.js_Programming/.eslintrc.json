@@ -1,0 +1,14 @@
+{
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "no-console" : "warn",
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "no-trailing-spaces": "error",
+    "quotes": ["error", "single", { "avoidEscape": true }],
+    "brace-style": ["error", "1tbs"]
+  }
+}
