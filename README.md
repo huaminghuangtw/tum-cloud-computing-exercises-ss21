@@ -5,7 +5,7 @@
 ---
 
 ### Topics:
-- **Exercise 1:** Node.js Programming with Mongo DB
+- **Exercise 1:** Web Application Development (CRUD operations) using Node.js Programming with Mongo DB
 - **Exercise 2:** Application Deployment using Docker
 - **Exercise 3:** Microservice Architecture Application
 - **Exercise 4:** Application Deployment using Kubernetes
