@@ -13,4 +13,4 @@
 ---
 
 ### Contact
-Suggestions for specific content can be sent to: huaming.huang.tw@gmail.com
+If you have any question or suggestion, feel free to contact me at huaming.huang.tw@gmail.com. Contributions are also welcomed. Please open a [pull-request](https://github.com/hmhuang0501/tum-cloud-computing-exercises-ss21/compare) or an [issue](https://github.com/hmhuang0501/tum-cloud-computing-exercises-ss21/issues/new) in this repository.
